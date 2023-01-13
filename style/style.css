@@ -69,7 +69,7 @@ main {
 .personal-head-img {
   background-color: #62d1d2;
   border-radius: 100px;
-  border: 2px solid var(--color-border);
+  box-shadow: 1px 1px 10px #560070;
   width: 150px;
 }
 
@@ -88,6 +88,7 @@ main {
   margin: 0;
 }
 .resumen img:hover {
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.7);
   position: absolute;
   max-width: none;
   width: 302px;
