@@ -81,11 +81,12 @@ main{
         max-width: 150px;
         padding: 0;
         margin: 0;
+        transition: transform 1s;
+        transition: 1s;
     }
     img:hover{
         box-shadow: 20px 20px 10px rgba(0,0,0,0.7);
-        position: absolute;
-        max-width: none;
-        width: 302px;
+        transform: scale(1.5,1.5);
+        position: relative;
     }
 }
